@@ -1,0 +1,32 @@
+/* <system section="theme" selected="11696248318752743083"> */
+@import "https://blog.hatena.ne.jp/-/theme/11696248318752743083.css";
+/* </system> */
+
+h1#title {
+    font-size: 22px;
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: 12px;
+    text-align: center;
+    padding-left: 12px;
+    margin: 60px auto 0 auto;
+    width: 880px;
+}
+
+.categories a {
+/*    color: #ff6347; */
+    color: #4682b4;
+    font-size: 14px;
+    font-weight: normal;
+    float: left;
+    margin-right: 14px;
+    display: block;
+}
+
+.entry-content a.keyword:after {content: '';}
+
+.entry-content a {
+color: #4682b4;
+text-decoration: none;
+padding-bottom: 2px;
+}
